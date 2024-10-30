@@ -1,0 +1,56 @@
+.hyper-pwa-hidden {
+  display: none !important;
+}
+.hyper-pwa-notification-bar {
+  z-index: 99999 !important;
+  position: fixed;
+  bottom: -8px;
+  background: white;
+  border-top: 2px solid dodgerblue;
+  box-sizing: border-box;
+  width: 100%;
+  height: 58px;
+}
+.hyper-pwa-icon {
+  margin-left: 16px;
+}
+.hyper-pwa-install-button {
+  background: white;
+  color: dodgerblue;
+  height: 48px;
+  padding: 12px;
+  border: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  overflow-y: hidden;
+}
+.hyper-pwa-close-button {
+  background: white;
+  color: black;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border: 0;
+}
+
+.hyper-pwa-popup-window {
+  z-index: 99999 !important;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.hyper-pwa-popup-text {
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+  width: 512px;
+  height: 128px;
+  box-shadow: 0px 0px 4px #cccccc;
+}
